@@ -474,7 +474,7 @@
                 <right>4</right>
                 <left>0</left>
                 <bottom>0</bottom>
-                <bordersize>20</bordersize>
+                <bordersize>3</bordersize>
                 <texture colordiffuse="$PARAM[fgcolor]_100">$INFO[ListItem.Icon]</texture>
                 <aspectratio aligny="center" align="right">keep</aspectratio>
                 <visible>Skin.HasSetting(PVRGuide.ColorDiffuse)</visible>
@@ -484,7 +484,7 @@
                 <right>4</right>
                 <left>0</left>
                 <bottom>0</bottom>
-                <bordersize>20</bordersize>
+                <bordersize>3</bordersize>
                 <texture>$INFO[ListItem.Icon]</texture>
                 <aspectratio aligny="center" align="right">keep</aspectratio>
                 <visible>!Skin.HasSetting(PVRGuide.ColorDiffuse)</visible>
@@ -494,7 +494,7 @@
                 <right>4</right>
                 <left>0</left>
                 <bottom>0</bottom>
-                <bordersize>20</bordersize>
+                <bordersize>3</bordersize>
                 <texture colordiffuse="$PARAM[fgcolor]_100">common/circle.png</texture>
                 <aspectratio aligny="center" align="right">keep</aspectratio>
                 <visible>String.IsEmpty(ListItem.Icon) | String.StartsWith(ListItem.Icon,special://xbmc/addons/pvr.demo/)</visible>
